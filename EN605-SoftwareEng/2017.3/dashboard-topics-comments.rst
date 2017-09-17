@@ -18,22 +18,16 @@ into five topics.
 Problem Description
 ===================
 
-The CADET dashboard, topic across comments section requires 
+The CADET program requires an web application interface to allow better
+accesibility for future users.  At its current form, the user would have to 
+pull the raw code and compile the program with python in the terminal. 
+The current view process comment files and display the results in two view:
+the topic dashboard and instructor dashboard. The color scheme and typography 
+are bare, monochromatic grey, and not user-friendly nor interactive. 
 
-The Plagiarism Detection Project requires a central focal point for users
-wishing to access the projects functionality, and as a point to return to after
-the user has completed an iteration of their work with the program, and as a
-point to return to should the user wish to interrupt an iteration of their work
-with the program.
-
-There needs to exist a mechanism to inform the user that they have successfully
-located the Plagiarism Detection Project Website.
-
-There needs to exist a mechanism to inform the user of how to utilize the
-Plagiarism Detection Project Website. This mechanism must provide the user with
-critical details as to how the process works, what are acceptable formats which
-input can be accepted, and what the user can expect the program to return to
-them.
+There needs to be a mechanism to inform the user of how to navigate between 
+the two dashboards.  The needs to be a mechanism to give the user more details
+on how the file is processed in the backend.
 
 Requirements
 ------------
