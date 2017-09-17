@@ -42,7 +42,7 @@ Requirements
 section.
 - The topics dashboard must have a clean and intuitive interface.
 - The topics dashboard must follow the branding guidelines of JHU, 
-  available `<http://example.com>`_here.
+  available `<http://brand.jhu.edu/>`_here.
 - The topics dashboard must display clusters of 5 topics.
 - The topics dashboard must display all comments mapped to those 5 topics.
 - The topics dashboard must provide the user an obvious, and intuitive way
