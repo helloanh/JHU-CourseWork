@@ -60,10 +60,9 @@ Postcondition: No post conditions exist.
 
 1) The actor will upload file(s) in the upload panel view from their
    selected browser by going to a provided URL/test server.
-2) a) The actor will be prompted to select the format of upload, and will
-      select "Upload Text" from the available onscreen options.
-   b) At that time, the Main Screen will route the user to the Upload Text
-      Feature.
+2) The actor will be prompted to select the format of upload, and will
+      select "Upload File" from the available onscreen options.
+
 
 Variations: The actor might input the wrong URL.
 
