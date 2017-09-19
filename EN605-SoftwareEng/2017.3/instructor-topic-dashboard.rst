@@ -109,8 +109,8 @@ References
 Please include any relevant references that are related to the problem or the
 proposed change. The references should supplement the material already in this specification -- i.e., the specification must make sense even if the references are not available.
 
-..[Django Testing] Django Documentation, "Testing Tools," Sept 2017. 
-Online: https://docs.djangoproject.com/en/dev/topics/testing/tools/ 
+.. [Django Testing] Django Documentation, "Testing Tools," Sept 2017. 
+	Online: https://docs.djangoproject.com/en/dev/topics/testing/tools/ 
 
 .. [RST] David Goodger, "reStructuredText Markup Specification," May 2016.
    Online: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
