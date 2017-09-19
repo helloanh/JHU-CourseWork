@@ -34,23 +34,6 @@ The functional requirements are the processed calculation in the form of a JSON 
 - The topics dashboard must display clusters of the number of topics the user has selected.
 - The topics dashboard must display all comments mapped to those topics.
 
-Use Cases
----------
-
-A *use case*, at a high level, is a story about an observable interaction (a
-"thread of usage") between the system and the environment. Each story is
-described from the point of view of an actor that interacts with the system
-in some way.
-
-Each feature must include at least one use case that answers the following
-questions:
-* Who is the primary actor and the secondary actor(s)?
-* What are the actors' goals?
-* What preconditions exist before the story begins and postconditions after the
-  story ends?
-* What main tasks or functions are performed by the actor(s)?
-* What variations in the actors' interactions are possible (e.g., exceptions)?
-
 Use Case A:
 
 Primary Actor: The department chair who wants to view topics by comments or comments by instructor. The department chair wishes to have an overhead view of sentiments groupped by instructors and topics.
@@ -63,9 +46,9 @@ Postcondition: Graphical represenation of the processed data.
 2) If the actor clicks on the topics pannel, the page should load to display topics and comments grouped for particular topic.  The number of topics to display is determined by the user from the upload view page.
 3) If the actor clicks on the instructor pannel, the page should load to display students comments directed at the instructor.
 
-Variations: 
+Variations: The department chair's primary objective might not be to view instructors and topics, but to have more granular view--such sorting topics or professors by specific semester.  This is out of the scope of the current iteration of this dashboard.
 
-Variation Handling: 
+Variation Handling: Disclaimer or user-friendly text state the purpose of the current functionality of the dashboard. 
 
 
 Proposed Change
