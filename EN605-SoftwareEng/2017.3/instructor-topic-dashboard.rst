@@ -75,15 +75,10 @@ approach better than those options?
 Testing
 =======
 
-Unit Testing: Use the built-in Django **unittest tool** to test POST and GET requests in a mock browser, particularly on testing requests with for RESTful endpoints on a the dashboard templates.[Django Testing]
+Unit Testing: Use the built-in Django built in **unit test** and '**test client** <https://docs.djangoproject.com/en/1.11/topics/testing/tools/>'_. packages to test POST and GET requests in a mock browser, particularly on testing requests with for RESTful endpoints on a the dashboard templates.
 
-Intergration Testing:
+Intergration Testing: 'Selenium-Django testing tool for integration test <https://django-selenium.readthedocs.io/en/latest/#what-is-it>'_. For behavior-driven testing, to emulate a user's experience and interaction with the web site.
 
-What is the test plan? That is, how will this change be tested? Are there
-specific test cases to guard against expected faults?
-
-Provide a detailed rationale if some portions of the proposed change are not
-testable or no specific test cases will accompany the implementation.
 
 Documentation
 =============
