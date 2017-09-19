@@ -8,7 +8,7 @@ Instructor Topic Dashboard
 ========
 
 The instructor-topic dashboard serves to deliver two pannels for the user: 
-one pannel for comments across number of topics, and another pannel to display students comments on the instructors.  
+one pannel for comments across number of topics and another pannel to display students comments per instructor.  The data is a processed RESTful datapoint for instructors and courses, from the backend layer.
 
 
 Problem Description
@@ -19,6 +19,8 @@ The instructor-topic dashboard aims to deliver processed RESTful endpoints from 
 - To display the outputs process by the data-layer team in meaningful graphs and histograms.
 - To navigate back to the upload page.
 - To have the ability to switch between two pannels with ease.
+- To create a dashboard that allows room for future expansion for additional features.
+- To create a dashboard UI that is compatible with current data visualization libraries from the Django framework. 
 
 Requirements
 ------------
@@ -26,11 +28,11 @@ Requirements
 The functional requirements are the processed calculation in the form of a JSON file from data-layer team. The result should be a dashboard with options to switch between two pannels described above. The quality requirement is to create an intuitive, clean user-interface counts as top priority for quality requirements. Futhermore, the dashboard should accomplish the following tasks: 
 
 - The topics dashboard must indicate to users that they are in the dashboard-topics section.
+- The topics dashboard must provide the user an obvious, and intuitive way
+  to switch to the instructor dashboard view.
 - The topics dashboard must follow the branding guidelines of JHU, available `here <http://brand.jhu.edu/>`_.
 - The topics dashboard must display clusters of the number of topics the user has selected.
 - The topics dashboard must display all comments mapped to those topics.
-- The topics dashboard must provide the user an obvious, and intuitive way
-  to switch to the instructor dashboard view.
 
 Use Cases
 ---------
@@ -51,16 +53,15 @@ questions:
 
 Use Case A:
 
-Actor: The superuser is the department chair who wants to view topics by comments or comments by instructor.
+Primary Actor: The department chair who wants to view topics by comments or comments by instructor. The department chair wishes to have an overhead view of sentiments groupped by instructors and topics.
 
 Precondition: The department chair must have already uploaded a valid file and it has been processed in the backend team. The user has already finished inputing the topic model options for the number of topics, number of words per topics, number of iterations, and edit the stopwords file.
 
-Postcondition: The processed data is delivered.
+Postcondition: Graphical represenation of the processed data.
 
 1) The actor has the ability to switch between two pannels on the dashboard.
-2) If the actor clicks on the topics pannel, the page should load to display topics and comments groupped until that particular topic.  The number of topics to display is 
-3) If the actor clicks on the instructor pannel, 
-
+2) If the actor clicks on the topics pannel, the page should load to display topics and comments grouped for particular topic.  The number of topics to display is determined by the user from the upload view page.
+3) If the actor clicks on the instructor pannel, the page should load to display students comments directed at the instructor.
 
 Variations: 
 
@@ -89,6 +90,10 @@ approach better than those options?
 Testing
 =======
 
+Unit Testing: Use the built-in Django 'unittest tool <https://docs.python.org/3/library/unittest.html#module-unittest>'_. and 'testclient tool <https://docs.djangoproject.com/en/dev/topics/testing/tools/>'_. to test POST and GET requests in a mock browser, particularly on testing requests with for RESTful endpoints on a the dashboard templates.
+
+Intergration Testing:
+
 What is the test plan? That is, how will this change be tested? Are there
 specific test cases to guard against expected faults?
 
@@ -111,16 +116,16 @@ Work Items
 
 If this feature will be implemented in phases (and most features should be!),
 enumerate the individual pieces that will collectively implement the proposed
-change. Work items may be supported by different people, but they also provide
-a rough timeline for the proposed feature.
+change. Work items may be supported by different people, but they also provide a rough timeline for the proposed feature.
 
 References
 ==========
 
 Please include any relevant references that are related to the problem or the
-proposed change. The references should supplement the material already in this
-specification -- i.e., the specification must make sense even if the references
-are not available.
+proposed change. The references should supplement the material already in this specification -- i.e., the specification must make sense even if the references are not available.
+
+.. [Django Testing] Django Documentation, "Testing Tools," Sept 2017. 
+	Online: https://docs.djangoproject.com/en/dev/topics/testing/tools/ 
 
 .. [RST] David Goodger, "reStructuredText Markup Specification," May 2016.
    Online: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
