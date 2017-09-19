@@ -26,15 +26,11 @@ Requirements
 The functional requirements are the processed calculation in the form of a JSON file from data-layer team. The result should be a dashboard with options to switch between two pannels described above. The quality requirement is to create an intuitive, clean user-interface counts as top priority for quality requirements. Futhermore, the dashboard should accomplish the following tasks: 
 
 - The topics dashboard must indicate to users that they are in the dashboard-topics section.
-- The topics dashboard must follow the branding guidelines of JHU, available `<http://brand.jhu.edu/>`here.
-- The topics dashboard must display clusters of 5 topics.
-- The topics dashboard must display all comments mapped to those 5 topics.
+- The topics dashboard must follow the branding guidelines of JHU, available `here <http://brand.jhu.edu/>`_.
+- The topics dashboard must display clusters of the number of topics the user has selected.
+- The topics dashboard must display all comments mapped to those topics.
 - The topics dashboard must provide the user an obvious, and intuitive way
   to switch to the instructor dashboard view.
-- The topics dashboard must provide the user the option to upload another 
-  file or a batch of files.
-- The topics dashboard  must be presentable on Firefox and Chrome, desktop view.
-
 
 Use Cases
 ---------
