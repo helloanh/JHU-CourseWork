@@ -69,7 +69,7 @@ approach better than those options?
 
 Although there are alternatives to PtQt5 library, such as `kivy <https://kivy.org/#home>`_, PtQt5 the default because is already set up in preexisting code.  The Kivy is known more for smaller applications and game development, as mentioned by Medina in `this article <https://medium.com/@tryexceptpass/a-python-ate-my-gui-971f2326ce59>`_. 
 
-There are different libraries such as `Djangosuit <http://djangosuit.com/>`_to provide out-of-the-box front-end templating functionalities, however, it is not as well documented or has extensive libraries as Awesome-Django.  
+There are different libraries such as `Djangosuit <http://djangosuit.com/>`_ to provide out-of-the-box front-end templating functionalities, however, it is not as well documented or has extensive libraries as Awesome-Django.  
 
 Creating a customized UI design with different typography and styling guide is another alternative.  However, this is time-consuming and there is no need to reinvent the wheel when JHU already provide the design guidelines.
 
